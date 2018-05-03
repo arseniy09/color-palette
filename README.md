@@ -1,1 +1,1 @@
-# color-palette
+# accessible-color-palette

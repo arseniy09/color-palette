@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+	<title>Accessible Color Palette Generator</title>
+	<script src="https://use.fontawesome.com/e64ac2e5df.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet">
+	<link class="js-google-stylesheet" href="#" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<html>
+	<body>
+		<div class="body_container">
+			<h1>Accessible Color Palette Generator</h1>
+			<div class="input_container clearfix">
+				<div class="js-color-button-container color-button-container">
+					<div class="input-group mb-3">
+					  <div class="input-group-prepend">
+					    <span class="input-group-text" id="basic-addon1">#</span>
+					  </div>
+					  <input type="text" class="form-control js-color-input" placeholder="Hex Color" aria-label="Username" aria-describedby="basic-addon1">
+					  <div class="input-group-append">
+					    <button class="btn btn-primary js-color-button" type="button">Add</button>
+					  </div>
+					</div>
+				</div>
+				<div class="input-group mb-3 font-dropdown-container">
+					<select class="custom-select js-font-dropdown" id="inputGroupSelect01"></select>
+				</div>
+			</div>
+			<div class="js-color-list-container"></div>
+		</div>
+		<div class="js-color-examples-container"></div>
+	</body>
+	<script src="js/main.js"></script>
+</html>
